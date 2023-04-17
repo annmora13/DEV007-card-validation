@@ -1,0 +1,19 @@
+#boton-imagen{
+    cursor: pointer;
+  }
+  
+  #boton-imagen:active{
+    border: 2px solid black;
+  }
+
+  form{
+    color: aliceblue;
+    background-color: #117a65 ;
+    height: 120px;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #888888;
+    text-align: center;
+}

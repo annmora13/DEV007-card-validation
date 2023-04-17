@@ -3,12 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/DEV007-card-validation/src/style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+    <div style="text-align: center;"> 
+        <h1>Escoge tu pokemón inicial</h1>
+      <img src="img/bulbasaur.jpg" alt="botondeimagen" id="boton-imagen" style="display: inline-block;">
+    </a>
+      <img src="img/charmander.jpg" alt="botondeimagen" id="boton-imagen" style="display: inline-block;">
+    </a>
+      <img src="img/squirtle.jpg" alt="botondeimagen" id="boton-imagen" style="display: inline-block;">
+    </a>
+    <br>
+    <form>
+    <label for="cardNumber">Número de tarjeta de crédito:</label>
+    <input type="text" id="cardNumber" name="cardNumber">
+</br>
+    <label for="name">Nombre en la tarjeta</label>
+    <input type="text" id="name" name="name">
+    <button type="button" onclick=""></button>
+</br>
+    <label for="numseguridad">CVV</label>
+    <input type="text" id="numseguridad" name="numseguridad">
+    <button type="button" onclick=""></button>
+</br>
+    <label for="expiredate">Fecha de vencimiento</label>
+    <input type="text" id="expiredate" name="expiredate">
+    <button type="button" onclick=""></button>
+  <br>
+      <button type="button" id="validate">Validar</button>
+      <div id="result"></div>
+      <script src="index.js" type="module"></script>
+    </form>
+  </div>
 </html>
+</body>
+
+
+  
