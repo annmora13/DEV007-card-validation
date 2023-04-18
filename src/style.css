@@ -1,8 +1,8 @@
-#boton-imagen{
+.boton-imagen{
     cursor: pointer;
   }
   
-  #boton-imagen:active{
+.boton-imagen:active{
     border: 2px solid black;
   }
 
